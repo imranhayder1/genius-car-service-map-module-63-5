@@ -7,7 +7,7 @@ const Addservice = () => {
     const onSubmit = data => {
         console.log(data);
 
-        const url = `http://localhost:5000/service/`;
+        const url = `https://secure-sands-66346.herokuapp.com/service/`;
         fetch(url, {
             method: 'POST',
             headers: {
